@@ -2,6 +2,7 @@
   "name": "airbnb",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://viktorzvarych.github.io/airbnb",
   "type": "module",
   "scripts": {
     "dev": "vite",
