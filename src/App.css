@@ -1,0 +1,15 @@
+#root {
+  /* border: 1px solid yellowgreen; */
+  margin: auto auto;
+  text-align: center;  
+  font-family: Poppins, sans-serif;
+}
+
+.card {
+  max-width: 50vw;
+  min-width: 30vw;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
