@@ -6,7 +6,6 @@ import data from './data.js'
 
 function App() {
   const cards = data.map(item => {
-    console.log(item.price);
     return <Card key={item.id} {...item} />
   })
 

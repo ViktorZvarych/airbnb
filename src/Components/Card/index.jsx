@@ -5,15 +5,15 @@ export default function Card(item) {
     let label;
     if (item.openSpots === 0) {
         label = <span>Sold</span>
-    } else if (item.location) {
+    } else if (item.location === "Online") {
         label = <span>{item.location}</span>
     }
 
     return (
         <article className={styles.card} id={item.coverImg}>
-            <p className={styles.label}>{label}</p>
+            {console.log(item.id, label)}
+            {label && <p className={styles.label}>{label}</p>}
             <img
-                // src={`../../../public/images/${item.coverImg}`}
                 src={`./images/${item.coverImg}`}
                 alt={item.title}
                 className={styles.image}
