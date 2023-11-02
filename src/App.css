@@ -1,15 +1,28 @@
 #root {
   /* border: 1px solid yellowgreen; */
   margin: auto auto;
-  text-align: center;  
+  text-align: center;
   font-family: Poppins, sans-serif;
 }
 
-.card {
-  max-width: 50vw;
+.container {
+  max-width: 90vw;
   min-width: 30vw;
   padding: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+
+@media screen and (max-width: 600px) {
+  .cards {
+    flex-direction: column;
+  }
 }

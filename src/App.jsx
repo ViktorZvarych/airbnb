@@ -12,11 +12,13 @@ function App() {
 
   return (
     <>
-      <div className="card">
+      <div className="container">
         <Header />
         <main>
           <Hero />
-          {cards}
+          <div className='cards'>
+            {cards}
+          </div>
         </main>
       </div>
     </>

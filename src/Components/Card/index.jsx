@@ -13,6 +13,7 @@ export default function Card(item) {
         <article className={styles.card} id={item.coverImg}>
             <p className={styles.label}>{label}</p>
             <img
+                // src={`../../../public/images/${item.coverImg}`}
                 src={`./images/${item.coverImg}`}
                 alt={item.title}
                 className={styles.image}
