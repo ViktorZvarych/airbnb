@@ -2,6 +2,7 @@ import './App.css'
 import Header from './Components/Header'
 import Hero from './Components/Hero'
 import Card from './Components/Card'
+import Footer from './Components/Footer'
 import data from './data.js'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             {cards}
           </div>
         </main>
+        <Footer />
       </div>
     </>
   )
